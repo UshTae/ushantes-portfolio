@@ -1,0 +1,21 @@
+nav{
+    /* getting rid of dots on list  */
+    list-style-type: none;
+
+    /* sticking to top of page  */
+    position: absolute;
+    width: 399px;
+    height: 63px;
+    left: 567px;
+    top: 31px;
+
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
