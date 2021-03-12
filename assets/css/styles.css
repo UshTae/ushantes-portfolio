@@ -1,9 +1,11 @@
-ul {
-    /* getting rid of dots on list  */
-    list-style-type: none;
+header {
+    background-color: #DCCCC3;
+}
 
-    /* sticking to top of page  */
-    position: absolute;
+nav ul {
+    
+    /* sticking navbar to top of page  */
+    position: fixed;
     display: flex;
     justify-content: center;
     width: 100%;
