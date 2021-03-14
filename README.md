@@ -23,4 +23,4 @@ The following image shows the portfolio's appearance and functionality.
 ![The website includes a photo of developer, their name and a navigation bar.](assets\images\2021-03-14-23-51-subwayaintfresh.github.io.png)
 
 ## Application link
-Link to the Horison deployed website: /https://subwayaintfresh.github.io/ushantes-portfolio/
+Link to the Horison deployed website: https://subwayaintfresh.github.io/ushantes-portfolio/
