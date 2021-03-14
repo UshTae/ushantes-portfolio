@@ -48,8 +48,9 @@ p {
     z-index: 100;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 50px;
     
-    justify-content: center;
+    justify-content: right;
     width: 100%;
 
     font-family: 'Open Sans', helvetica, sans-serif;
@@ -63,6 +64,10 @@ p {
 }
 
 /* adding dashes inbetween navbar options  */
+    .hello::after {
+        content: "/";
+    }
+
     .about-me::after {
         content: "/";
     }
@@ -74,7 +79,7 @@ p {
         content: "/";
     }
 
-header {
+#hello {
     background-color: #DCCCC3;
     /* maing background colour fit whole background  */
     background-size: cover;
@@ -176,7 +181,7 @@ header {
 #work {
     display: flex;
     position: relative;
-    top: 350px;
+    top: 400px;
     justify-content: center;
 }
 
@@ -197,6 +202,5 @@ header {
   .work-examples > article {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
     font-size: 30px;
   }
