@@ -2,17 +2,7 @@
     background-color: ;
 }
 
-header {
-    background-color: #DCCCC3;
-    background-size: cover;
-    background-position: center;
-    padding: 80px;
-    height: 20vh;
-    width: 20vw;
-    min-width: 100%;
-    min-height: 550px;
-    
-}
+
 
 h1 {
     font-family: 'Open Sans', helvetica, sans-serif;
@@ -55,41 +45,54 @@ p {
 }
 
 /* adding dashes inbetween navbar options  */
-.about-me::after {
-    content: "/";
+    .about-me::after {
+        content: "/";
+    }
+
+    .work::after {
+        content: "/";
+    }
+    .contact-me::after {
+        content: "/";
+    }
+
+header {
+    background-color: #DCCCC3;
+    /* maing background colour fit whole background  */
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    height: 20vh;
+    width: 20vw;
+    min-width: 100%;
+    min-height: 550px;
 }
 
-.work::after {
-    content: "/";
-}
-.contact-me::after {
-    content: "/";
-}
 
 /* header images  */
-#self {
-    position: absolute;
-    left: 313px;
-    top: 115px;
-    /* adds filter to photo  */
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+    #self {
+        position: absolute;
+        left: 313px;
+        top: 115px;
+        /* adds filter to photo  */
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
 
-#orchid {
-    position: absolute;
-    width: 450px;
-    height: 340px;
-    left: 420px;
-    top: 82px;  
-}
+    #orchid {
+        position: absolute;
+        width: 450px;
+        height: 340px;
+        left: 420px;
+        top: 82px;  
+    }
 
-#box {
-    position: absolute;
-    width: 300px;
-    height: 320px;
-    left: 490px;
-    top: 146px;
-}
+    #box {
+        position: absolute;
+        width: 300px;
+        height: 320px;
+        left: 490px;
+        top: 146px;
+    }
 
 /* Style h1 and h2  */
 
