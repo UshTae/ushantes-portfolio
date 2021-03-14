@@ -30,6 +30,13 @@ h3 {
     font-size: 24px;
     line-height: 33px;
 }
+
+h4 {
+    font: var(--main-font);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
 p {
     font: var( --main-font);
     font-weight: normal;
@@ -143,7 +150,7 @@ p {
         width: 219px;
         height: 170px;
         left: 400px;
-        top: 720px;
+        top: 750px;
         text-transform: uppercase;
         
     }
@@ -153,7 +160,7 @@ p {
         width: 714px;
         height: 148px;
         left: 711px;
-        top: 700px;
+        top: 720px;
 
         background-color: #E5E5E5;
         padding: 35px;
@@ -185,18 +192,29 @@ p {
     justify-content: center;
 }
 
+/* setting the area names for each example  */
 .horiseon {
-    /* makes first example bigger than others */
-    grid-area: myArea;
+    grid-area: Horiseon;
+     
   }
-  
+
+.example-2 { grid-area: example-2 ; }
+.example-3 { grid-area: example-3 ; }
+.example-4 { grid-area: example-4 ; }
+.example-5 { grid-area: example-5 ; }
+
   .work-examples {
       /* turns this section into a grid  */
     display: grid;
-    grid-template-areas: 'myArea myArea myArea myArea myArea';
-    grid-gap: 10px;
+    grid-template-areas:
+    /* makes first example bigger than others */
+     'Horiseon Horiseon Horiseon Horiseon'
+     'example-2 example-2 example-3 example-3'
+     'example-4 example-4 example-5 example-5'
+    ;
+    grid-gap: 20px;
     background-color: #C4C4C4;
-    padding: 10px;
+    padding: 20px;
   }
   
   .work-examples > article {
