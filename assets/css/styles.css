@@ -1,5 +1,25 @@
 header {
+    /* fix this to be larger and behind photos */
     background-color: #DCCCC3;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 85px;
+
+}
+
+p {
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
 }
 
 nav ul {
@@ -37,8 +57,8 @@ nav ul {
 /* header images  */
 #self {
     position: absolute;
-    left: 213px;
-    top: 79px;
+    left: 313px;
+    top: 115px;
     /* adds filter to photo  */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -47,14 +67,36 @@ nav ul {
     position: absolute;
     width: 450px;
     height: 340px;
-    left: 320px;
-    top: 62px;  
+    left: 420px;
+    top: 82px;  
 }
 
 #box {
     position: absolute;
     width: 300px;
     height: 320px;
-    left: 400px;
-    top: 113px;
+    left: 490px;
+    top: 146px;
+}
+
+/* Style h1 and h2  */
+
+.about-me h1 {
+    position: absolute;
+    width: 219px;
+    height: 170px;
+    left: 198px;
+    top: 586px;
+    
+}
+
+.about-me p {
+    position: absolute;
+    width: 714px;
+    height: 148px;
+    left: 511px;
+    top: 601px;
+
+    background-color: #E5E5E5;
+    /* make background colour box bigger  */
 }
