@@ -88,8 +88,7 @@ p {
 
 #hello {
     background-color: #DCCCC3;
-    /* maing background colour fit whole background  */
-    background-size: cover;
+    /* making background colour fit whole background  */
     background-position: center;
     padding: 80px;
     height: 20vh;
@@ -219,5 +218,42 @@ p {
     padding: 50px;
   }
   
+  #contact-me {
+      display: flex;
+      position: absolute;
+      top: 2300px;
+      left: 100px;
+      background-color: #B8B3B0;
+      /* making background colour fit whole background  */
+      background-size: cover;
+      padding: 80px;
+      min-width: 90%;
+      min-height: 200px;
+      align-content: flex-start;
+  }
+  .contact-me {
+      
+      text-transform:uppercase;
+
+  }
   
+  .contact-examples {
+      display: flex;
+      position: absolute;
+      left: 500px;
+      top: 150px;
+  }
+
+   /* Responsive layout - makes a one column-layout instead of two columns */
+   @media screen and (max-width: 900px) {
+    .work-examples {
+      width: 100%;
+    }
+  }
   
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
