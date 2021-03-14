@@ -7,7 +7,7 @@ body {
 }
 
 
-
+/* all font stylings  */
 h1 {
     font: var( --main-font);
     font-weight: bold;
@@ -38,7 +38,8 @@ p {
 
 }
 
-.sticky {
+
+.nav-bar {
     
     /* sticking navbar to top of page  */
     display: flex;
