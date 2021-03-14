@@ -1,12 +1,15 @@
-* {
-    background-color: ;
+:root {
+    --main-font:  'Open Sans', helvetica, sans-serif normal;
+}
+
+body {
+    background-color:#9D9A99 ;
 }
 
 
 
 h1 {
-    font-family: 'Open Sans', helvetica, sans-serif;
-    font-style: normal;
+    font: var( --main-font);
     font-weight: bold;
     font-size: 64px;
     line-height: 85px;
@@ -14,16 +17,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', helvetica, sans-serif;
-    font-style: normal;
+    font: var( --main-font);
     font-weight: bold;
     font-size: 48px;
     line-height: 65px;
 }
 
 p {
-    font-family: 'Open Sans', helvetica, sans-serif;
-    font-style: normal;
+    font: var( --main-font);
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
@@ -37,6 +38,8 @@ p {
     position: sticky;
     top: 0;
     z-index: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
     justify-content: center;
     width: 100%;
