@@ -20,9 +20,7 @@ The Employer wants to view my portfolio in considering me as a candidate for an 
 
 ## Mock up
 The following image shows the portfolio's appearance and functionality.
-![The website includes a photo of developer, their name and a navigation bar.](https://github.com/subwayaintfresh/horiseon-accessibility-update/blob/master/assets/images/subwayaintfresh.github.io_Homework-week-1_.png)
-
->**Note:** All changes made in the HTML and CSS of the application hasn't affected the appearence, only the accessibility. 
+![The website includes a photo of developer, their name and a navigation bar.](assets\images\2021-03-14-23-51-subwayaintfresh.github.io.png)
 
 ## Application link
-Link to the Horison deployed website: https://subwayaintfresh.github.io/horiseon-accessibility-update/
+Link to the Horison deployed website: /
