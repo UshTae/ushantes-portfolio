@@ -82,7 +82,7 @@ p {
     .work::after {
         content: "/";
     }
-    .contact-me::after {
+    .contact-me-nav::after {
         content: "/";
     }
 
