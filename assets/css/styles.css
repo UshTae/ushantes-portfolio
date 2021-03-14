@@ -23,6 +23,13 @@ h2 {
     line-height: 65px;
 }
 
+h3 {
+    font: var( --main-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
 p {
     font: var( --main-font);
     font-weight: normal;
@@ -105,12 +112,20 @@ header {
     }
 
 /*  name title and description  */
-.header-my-name {
-    display: flex;
-    position: absolute;
-    left: 990px;
-}
+    .header-my-name {
+        display: flex;
+        position: absolute;
+        left: 990px;
+        top: 300px;
+    }
 
+    .header-p {
+        display: flex;
+        position: absolute;
+        left: 995px;
+        top: 420px;
+    }
+    
 /* Style h1 and h2  */
 
 #about-me h1 {
