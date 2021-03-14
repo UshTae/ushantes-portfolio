@@ -135,6 +135,7 @@ header {
     height: 170px;
     left: 400px;
     top: 720px;
+    text-transform: uppercase;
     
 }
 
@@ -159,26 +160,29 @@ header {
 
 }
 
-#work {
+#work h1 {
+    display: flex;
+    position: relative;
+    top: 350px;
+    justify-content:center;
+
+    text-transform: uppercase;
+}
+
+.work-examples {
     
     display: flex;
     position: relative;
-    
-    
+     top: 600px;
+
     /* turning this section into a 'grid' as a way of displaying the articles */
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
 
     background-color: #9D9A99;
+    text-transform: uppercase;
 
     padding: 10px;
-    top: 800px;
+   
 }
-
-#work article {
-    border: 1px solid none;
-    text-align: center;
-    font-size: 30px;
-}
-
