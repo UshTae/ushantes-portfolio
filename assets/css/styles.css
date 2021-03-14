@@ -244,16 +244,4 @@ p {
       top: 150px;
   }
 
-   /* Responsive layout - makes a one column-layout instead of two columns */
-   @media screen and (max-width: 900px) {
-    .work-examples {
-      width: 100%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+/* got quite stuck on making the page responsive  */
