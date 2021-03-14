@@ -186,22 +186,24 @@ p {
 }
 
 #work {
+    /* moving the gallry to the centre and off other content */
     display: flex;
     position: relative;
     top: 400px;
     justify-content: center;
+    
 }
 
 /* setting the area names for each example  */
-.horiseon {
-    grid-area: Horiseon;
-     
-  }
+    .horiseon {
+        grid-area: Horiseon;
+        
+    }
 
-.example-2 { grid-area: example-2 ; }
-.example-3 { grid-area: example-3 ; }
-.example-4 { grid-area: example-4 ; }
-.example-5 { grid-area: example-5 ; }
+    .example-2 { grid-area: example-2 ; }
+    .example-3 { grid-area: example-3 ; }
+    .example-4 { grid-area: example-4 ; }
+    .example-5 { grid-area: example-5 ; }
 
   .work-examples {
       /* turns this section into a grid  */
@@ -212,13 +214,15 @@ p {
      'example-2 example-2 example-3 example-3'
      'example-4 example-4 example-5 example-5'
     ;
-    grid-gap: 20px;
+    grid-gap: 40px;
     background-color: #C4C4C4;
-    padding: 20px;
+    padding: 50px;
   }
+  
   
   .work-examples > article {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     font-size: 30px;
   }
+  
