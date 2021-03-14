@@ -127,6 +127,10 @@ header {
         top: 420px;
     }
     
+    .main {
+        max-width: 1000px;
+        margin: auto;
+    }
 
 /* about me section header and paragraph styling  */
     #about-me h1 {
@@ -160,7 +164,7 @@ header {
 
     }
  
-#work h1 {
+#work-title {
     display: flex;
     position: relative;
     top: 350px;
@@ -169,10 +173,30 @@ header {
     text-transform: uppercase;
 }
 
-.work-examples img {
-
+#work {
+    display: flex;
+    position: relative;
+    top: 350px;
+    justify-content: center;
 }
-/* <img class="example-2" src="assets\images\place holders.png" alt="Example 2">
-                <img class="example-3" src="assets/images/place holders.png" alt="Example 3">
-                <img class="example-4" src="assets/images/place holders.png" alt="Example 4">
-                <img class="example-3" src="assets/images/place holders.png" alt="Example 5"> */
+
+.horiseon {
+    /* makes first example bigger than others */
+    grid-area: myArea;
+  }
+  
+  .work-examples {
+      /* turns this section into a grid  */
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    grid-gap: 10px;
+    background-color: #C4C4C4;
+    padding: 10px;
+  }
+  
+  .work-examples > article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
