@@ -127,39 +127,39 @@ header {
         top: 420px;
     }
     
-/* Style h1 and h2  */
 
-#about-me h1 {
-    position: absolute;
-    width: 219px;
-    height: 170px;
-    left: 400px;
-    top: 720px;
-    text-transform: uppercase;
-    
-}
+/* about me section header and paragraph styling  */
+    #about-me h1 {
+        position: absolute;
+        width: 219px;
+        height: 170px;
+        left: 400px;
+        top: 720px;
+        text-transform: uppercase;
+        
+    }
 
-#about-me p {
-    position: absolute;
-    width: 714px;
-    height: 148px;
-    left: 711px;
-    top: 700px;
+    #about-me p {
+        position: absolute;
+        width: 714px;
+        height: 148px;
+        left: 711px;
+        top: 700px;
 
-    background-color: #E5E5E5;
-    padding: 35px;
-    height: 23vh;
-}
+        background-color: #E5E5E5;
+        padding: 35px;
+        height: 23vh;
+    }
 
 /* visual section divider element  */
-#divider {
-    display: flex;
-    position: absolute;
-    top: 960px;
-    left: 335px;
+    #divider {
+        display: flex;
+        position: absolute;
+        top: 960px;
+        left: 335px;
 
-}
-
+    }
+ 
 #work h1 {
     display: flex;
     position: relative;
@@ -169,20 +169,10 @@ header {
     text-transform: uppercase;
 }
 
-.work-examples {
-    
-    display: flex;
-    position: relative;
-     top: 600px;
+.work-examples img {
 
-    /* turning this section into a 'grid' as a way of displaying the articles */
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-
-    background-color: #9D9A99;
-    text-transform: uppercase;
-
-    padding: 10px;
-   
 }
+/* <img class="example-2" src="assets\images\place holders.png" alt="Example 2">
+                <img class="example-3" src="assets/images/place holders.png" alt="Example 3">
+                <img class="example-4" src="assets/images/place holders.png" alt="Example 4">
+                <img class="example-3" src="assets/images/place holders.png" alt="Example 5"> */
