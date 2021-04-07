@@ -28,11 +28,11 @@ h1 {
 }
 
 #self {
-    display: flex;
+    display: block;
     position: absolute;
     /* adds filter to photo  */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     right: 413px;
     bottom: 0;
-    size: 500px;
+    block-size: 900px;
 }
