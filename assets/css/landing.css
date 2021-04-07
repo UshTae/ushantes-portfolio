@@ -3,10 +3,36 @@
     --light: #F4F3EE;
     --gray: #BCB8B1;
     --pop: #E0AFA0;
-    --main-font: 'trebuchet ms', 'open sans', Arial, sans-serif normal;
+    --main-font:'trebuchet ms', 'open sans';
 }
 
 body {
     background-color: var(--dark) ;
+}
+
+h1 {
     font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--light);
+    font-size: 100px;
+}
+
+.title {
+    padding-left: 300px;
+    padding-top: 250px;
+}
+
+.custom-btn{
+    margin-left: 450px;
+    padding: 5px 30px 5px 30px;
+}
+
+#self {
+    display: flex;
+    position: absolute;
+    /* adds filter to photo  */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    right: 413px;
+    bottom: 0;
+    size: 500px;
 }
