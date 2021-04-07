@@ -1,0 +1,12 @@
+:root{
+    --dark: #463F3A;
+    --light: #F4F3EE;
+    --gray: #BCB8B1;
+    --pop: #E0AFA0;
+    --main-font: 'trebuchet ms', 'open sans', Arial, sans-serif normal;
+}
+
+body {
+    background-color: var(--dark) ;
+    font-family: var(--main-font);
+}
