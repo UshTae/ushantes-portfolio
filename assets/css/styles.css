@@ -27,17 +27,15 @@ body {
 /* navbar styles */
 .custom-nav{
     display: flex;
+    position: absolute;
     font-size: 60px;
     font-family: var(--second);
     font-weight: bold;
+    padding: 100px 0 0 100px ;
 }
 /* adding dashes inbetween navbar options  */
-    .hello::after, .about-me::after,
-    .work::after, .contact-me-nav::after {
-        content: "/";
-        color: var(--dark);
-    }
-
-#me{
-
-    }
+.hello::after, .about-me::after,
+.work::after {
+    content: "/";
+    color: var(--dark);
+}
