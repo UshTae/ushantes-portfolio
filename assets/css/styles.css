@@ -1,49 +1,18 @@
 :root {
-    --main-font:  'Open Sans', helvetica, sans-serif normal;
+    --main-font:  'trebuchet ms','Open Sans', sans-serif normal;
+    --dark: #463F3A;
+    --light: #F4F3EE;
+    --gray: #BCB8B1;
+    --pop: #E0AFA0;
+    --mid:#8A817C;
 }
 
 body {
-    background-color:#9D9A99 ;
+    background-color: var(--gray);
 }
 
 
-/* all font stylings  */
-h1 {
-    font: var( --main-font);
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 85px;
 
-}
-
-h2 {
-    font: var( --main-font);
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 65px;
-}
-
-h3 {
-    font: var( --main-font);
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 33px;
-}
-
-h4 {
-    font: var(--main-font);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-}
-p {
-    font: var( --main-font);
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-
-}
 
 
 .custom-nav {
@@ -85,163 +54,3 @@ p {
     .contact-me-nav::after {
         content: "/";
     }
-
-#hello {
-    background-color: #DCCCC3;
-    /* making background colour fit whole background  */
-    background-position: center;
-    padding: 80px;
-    height: 20vh;
-    width: 20vw;
-    min-width: 100%;
-    min-height: 550px;
-}
-
-
-/* header images  */
-    #self {
-        position: absolute;
-        left: 413px;
-        top: 215px;
-        /* adds filter to photo  */
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
-
-    #orchid {
-        position: absolute;
-        width: 450px;
-        height: 340px;
-        left: 520px;
-        top: 182px;  
-    }
-
-    #box {
-        position: absolute;
-        width: 300px;
-        height: 320px;
-        left: 590px;
-        top: 246px;
-    }
-
-/*  name title and description  */
-    .header-my-name {
-        display: flex;
-        position: absolute;
-        left: 990px;
-        top: 300px;
-    }
-
-    .header-p {
-        display: flex;
-        position: absolute;
-        left: 995px;
-        top: 420px;
-    }
-    
-    .main {
-        max-width: 1000px;
-        margin: auto;
-    }
-
-/* about me section header and paragraph styling  */
-    #about-me h1 {
-        position: absolute;
-        width: 219px;
-        height: 170px;
-        left: 400px;
-        top: 750px;
-        text-transform: uppercase;
-        
-    }
-
-    #about-me p {
-        position: absolute;
-        width: 714px;
-        height: 148px;
-        left: 711px;
-        top: 720px;
-
-        background-color: #E5E5E5;
-        padding: 35px;
-        height: 23vh;
-    }
-
-/* visual section divider element  */
-    #divider {
-        display: flex;
-        position: absolute;
-        top: 990px;
-        left: 335px;
-
-    }
- 
-#work-title {
-    display: flex;
-    position: relative;
-    top: 350px;
-    justify-content:center;
-
-    text-transform: uppercase;
-}
-
-#work {
-    /* moving the gallry to the centre and off other content */
-    display: flex;
-    position: relative;
-    top: 400px;
-    justify-content: center;
-    
-}
-
-/* setting the area names for each example  */
-    .horiseon {
-        grid-area: Horiseon;
-        
-    }
-
-    .example-2 { grid-area: example-2 ; }
-    .example-3 { grid-area: example-3 ; }
-    .example-4 { grid-area: example-4 ; }
-    .example-5 { grid-area: example-5 ; }
-
-  .work-examples {
-      /* turns this section into a grid  */
-    display: grid;
-    grid-template-areas:
-    /* makes first example bigger than others */
-     'Horiseon Horiseon Horiseon Horiseon'
-     'example-2 example-2 example-3 example-3'
-     'example-4 example-4 example-5 example-5'
-    ;
-    grid-gap: 40px;
-    background-color: #C4C4C4;
-    padding: 50px;
-  }
-  
-  #contact-me {
-      display: flex;
-      position: absolute;
-      top: 2300px;
-      left: 100px;
-      background-color: #B8B3B0;
-      /* making background colour fit whole background  */
-      background-size: cover;
-      padding: 80px;
-      min-width: 90%;
-      min-height: 200px;
-      align-content: flex-start;
-  }
-  .contact-me {
-      
-      text-transform:uppercase;
-
-  }
-  
-  .contact-examples {
-      display: flex;
-      position: absolute;
-      left: 500px;
-      top: 150px;
-  }
-
-/* got quite stuck on making the page responsive  */
