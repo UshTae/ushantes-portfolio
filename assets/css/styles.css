@@ -13,29 +13,31 @@ body {
 }
 
 /* link styles */
-
-    a {
-        color: var(--dark);
-        text-decoration: none;
-    }
+/* default */
+ a {
+     color: var(--dark);
+     text-decoration: none;
+}
     
-    /* mouse over link */
-    a:hover {
-        color:var(--mid);
-    }
+/* mouse over link */
+ a:hover {
+     color:var(--mid);
+}
 
+/* navbar styles */
+.custom-nav{
+    display: flex;
+    font-size: 60px;
+    font-family: var(--second);
+    font-weight: bold;
+}
 /* adding dashes inbetween navbar options  */
-    .hello::after {
+    .hello::after, .about-me::after,
+    .work::after, .contact-me-nav::after {
         content: "/";
+        color: var(--dark);
     }
 
-    .about-me::after {
-        content: "/";
-    }
+#me{
 
-    .work::after {
-        content: "/";
-    }
-    .contact-me-nav::after {
-        content: "/";
     }
