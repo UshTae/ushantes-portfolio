@@ -10,11 +10,22 @@ body {
     background-color: var(--dark) ;
 }
 
+#self {
+    display: block;
+    position: absolute;
+
+    padding-left: 250px;
+    bottom: 0;
+    block-size: 800px;
+    /* adds filter to photo  */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 h1 {
     font-family: var(--main-font);
     font-weight: bold;
     color: var(--light);
-    font-size: 135px;
+    font-size: 120px;
 }
 
 .title {
@@ -30,14 +41,3 @@ h1 {
     color: var(--dark);
 }
 
-#self {
-    display: block;
-    position: absolute;
-    /* adds filter to photo  */
-    
-    right: 413px;
-    bottom: 0;
-    block-size: 850px;
-    right: 30px;
-    filter:drop-shadow(4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25));
-}
