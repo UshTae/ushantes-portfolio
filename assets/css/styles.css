@@ -48,16 +48,3 @@ h2 {
     content: "/";
     color: var(--dark);
 }
-
-/* what I do text */
-.title {
-    color: var(--light);
-    font-family: var(--main-font);
-    padding: 150px 0 0 700px;
-}
-
-#me-img{
-    
-    opacity: 0.8;
-
-}
