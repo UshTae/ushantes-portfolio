@@ -3,21 +3,16 @@
     --main-font: 'trebuchet ms','Open Sans';
     --second: Arial, verdana, helvetica, tahoma;
     /* ==================GRADIENT================ */
-    --main-gradient: linear-gradient(90deg, #FD5E58 0%, #9900FF 60%, #4285F4 100%); 
-    /* ================FONT-COLOUR=============== */
+    --main-gradient: linear-gradient(135deg, #FD5E58 0%, #9900FF 60%, #4285F4 100%); 
+    /* ==============DEFAULT-COLOUR============== */
     --light: white;
     --dark: black;
     --mid: grey;
 }
 
-body {
-    background-color: var(--gray);
-}
-
 h1 {
     color: var(--light);
     font-weight: bold;
-    font-size: 140px;
 }
 
 h2 {
@@ -50,4 +45,15 @@ a:hover {
 .work::after {
     content: "/";
     color: var(--dark);
+}
+
+#landing-page {
+    height: 100vh;
+    background-image: var(--main-gradient);
+}
+
+#landing-box {
+    background-color: var(--dark);
+    height: 80vh;
+    margin: 50px;
 }
