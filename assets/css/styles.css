@@ -1,11 +1,13 @@
 :root {
+    /* ==================FONTS=================== */
     --main-font: 'trebuchet ms','Open Sans';
     --second: Arial, verdana, helvetica, tahoma;
-    --dark: #463F3A;
-    --light: #F4F3EE;
-    --gray: #BCB8B1;
-    --pop: #E0AFA0;
-    --mid:#8A817C;
+    /* ==================GRADIENT================ */
+    --main-gradient: linear-gradient(90deg, #FD5E58 0%, #9900FF 60%, #4285F4 100%); 
+    /* ================FONT-COLOUR=============== */
+    --light: white;
+    --dark: black;
+    --mid: grey;
 }
 
 body {
@@ -21,19 +23,20 @@ h1 {
 h2 {
     font-size: 80px;
 }
-/* link styles */
+
+/* =========================link styles======================== */
+
 /* default */
- a {
-     color: var(--dark);
-     text-decoration: none;
+a {
+    color: var(--dark);
+    text-decoration: none;
 }
     
 /* mouse over link */
- a:hover {
-     color:var(--mid);
+a:hover {
+    color:var(--mid);
 }
-
-/* navbar styles */
+/* ========================navbar styles======================= */
 .custom-nav{
     display: flex;
     position: absolute;
